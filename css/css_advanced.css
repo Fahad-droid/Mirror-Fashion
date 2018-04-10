@@ -1,0 +1,49 @@
+/*h2 ~ p{
+	font-style:italic;
+}*/
+h2+p{
+	font-variant:small-caps;
+}
+article > h1{
+	color:blue;
+}
+p{
+	color:gray;
+}
+p.special{
+	color:black;
+}
+li:first-child{
+	color:red;
+}
+li:last-child{
+	color:blue;
+}
+li:nth-child(3){
+	color:green;
+}
+li:hover{
+	background-color:yellow;
+}
+a:link{
+	background-color:#ff0000;
+}
+a:visited{
+	background-color:#00ff00;
+}
+a:active{
+	background-color:#0000ff;
+}
+p:first-letter{
+	font-size:200%;
+}
+p:first-line{
+	font-style:italic;
+	color:green;
+}
+a:before{
+	content:'[';
+}
+a:after{
+	content:']';
+}
